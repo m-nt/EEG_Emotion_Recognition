@@ -1,6 +1,6 @@
 dataset:
-+ 60 s of 32 channel EEG pre-processed signal
-+ bandpass fillter 
++ 60s of 10,14,18,32 channel EEG pre-processed signal
++ bandpass filter 
 + frequency of 128 Hz
 
 pre-process:
@@ -9,3 +9,4 @@ pre-process:
 
 feature extraction:
 + discrete wavelt transform(DWT) for extracing features 
++ window of 4s with overlap of 2s with previous windows total of 29 windows
