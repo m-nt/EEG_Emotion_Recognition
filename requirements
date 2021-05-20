@@ -3,3 +3,5 @@ matplotlib
 openpyxl
 scipy
 mne
+sklearn
+PyWavelets

@@ -4,7 +4,7 @@ dataset:
 + frequency of 128 Hz
 
 pre-process:
-+ add avrage mean reference(ARM) to deliminate indivisual and channel diferences
++ add average mean reference(ARM) to deliminate indivisual and channel diferences
 + normalize each person [0,1] with min-max normalization method
 
 feature extraction:
