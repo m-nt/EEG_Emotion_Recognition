@@ -1,0 +1,11 @@
+dataset:
++ 60 s of 32 channel EEG pre-processed signal
++ bandpass fillter 
++ frequency of 128 Hz
+
+pre-process:
++ add avrage mean reference(ARM) to deliminate indivisual and channel diferences
++ normalize each person [0,1] with min-max normalization method
+
+feature extraction:
++ discrete wavelt transform(DWT) for extracing features 
