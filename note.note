@@ -10,3 +10,4 @@ pre-process:
 feature extraction:
 + discrete wavelt transform(DWT) for extracing features 
 + window of 4s with overlap of 2s with previous windows total of 29 windows
+
